@@ -12,6 +12,10 @@
 
 Personal website powered by [Zola](https://www.getzola.org/), and themed with [serene](https://github.com/isunjn/serene).
 
+## Screenshot
+
+![website screenshot](screenshot-1.png)
+
 ## Changes from Upstream
 
 - New *layout*: `Page`.
