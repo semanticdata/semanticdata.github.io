@@ -16,7 +16,7 @@ comment = false
 This page is currently under construction. It contains <u><b><i>only</i></b></u> placeholder text.
 {% end %}
 
-## 2023-11-03
+## 2023-11
 
 ### Notes
 
@@ -35,3 +35,15 @@ This page is currently under construction. It contains <u><b><i>only</i></b></u>
 - Paused development for [Zola Docs](https://github.com/semanticdata/zola-docs). I was able to achieve some of the functionality I wanted to replicate.
 
 > [Link Of The Day](https://en.wikipedia.org/wiki/Sahara_pump_theory)
+
+## 2023-10
+
+### GitHub
+
+- Created new repo [upload-pages-artifact](https://github.com/semanticdata/upload-pages-artifact). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
+- Created new repo [upload-artifact](https://github.com/semanticdata/upload-artifact). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
+- Created new repo [deploy-pages](https://github.com/semanticdata/deploy-pages). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
+- With the three new GitHub actions, I can craft new workflows that use my own actions instead of the ones that have not been updated.
+- Renamed [zola-minima] to Agouta. Inspired by the Hispaniolan solenodon.
+
+> [Link Of The Day](https://en.wikipedia.org/wiki/False_friend)

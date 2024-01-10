@@ -62,13 +62,13 @@
         <li>
           <a class="h2" href="#{{ h2.id | safe }}">{{ h2.title }}</a>
           {% if h2.children %}
-          {# <ul>
+          <ul>
             {% for h3 in h2.children %}
             <li>
               <a class="h3" href="#{{ h3.id | safe }}">{{ h3.title }}</a>
             </li>
             {% endfor %}
-          </ul> #}
+          </ul>
           {% endif %}
         </li>
         {% endfor %}
