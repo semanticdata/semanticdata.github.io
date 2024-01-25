@@ -22,7 +22,7 @@ Personal website powered by [Zola](https://www.getzola.org/), and themed with [s
 - [Screenshot](#screenshot)
 - [Changes from Upstream](#changes-from-upstream)
   - [Accessibility](#accessibility)
-  - [Useful Commands](#useful-commands)
+- [Useful Commands](#useful-commands)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
@@ -44,14 +44,14 @@ Replaced all failing[^1] color variables with shades of the same color that retu
 
 | Variable                  | Old Color | New Color | Old Score | New Score |
 | ------------------------- | --------- | --------- | --------- | --------- |
-| `primary-color`           | `#698BCF` | `#3F537C` | `3.39` | `7.67`    |
-| `primary-color-dark`      | `#698BCF` | `#96ADDD` | `4.75` | `7.14`    |
-| `text-pale-color`         | `#9AA2B9` | `#4C515C` | `2.55` | `7.96`    |
-| `text-pale-color-dark`    | `#5d6470` | `#ADB1B7` | `2.70` | `7.47`    |
-| `callout-note-color`      | `#698BCF` | `#3F537C` | `3.39` | `7.67`    |
-| `callout-note-color-dark` | `#698BCF` | `#96ADDD` | `4.75` | `7.14`    |
+| `primary-color`           | `#698BCF` | `#3F537C` | `3.39`    | `7.67`    |
+| `primary-color-dark`      | `#698BCF` | `#96ADDD` | `4.75`    | `7.14`    |
+| `text-pale-color`         | `#9AA2B9` | `#4C515C` | `2.55`    | `7.96`    |
+| `text-pale-color-dark`    | `#5d6470` | `#ADB1B7` | `2.70`    | `7.47`    |
+| `callout-note-color`      | `#698BCF` | `#3F537C` | `3.39`    | `7.67`    |
+| `callout-note-color-dark` | `#698BCF` | `#96ADDD` | `4.75`    | `7.14`    |
 
-### Useful Commands
+## Useful Commands
 
 | **Command**  | Description                                                                       |
 | ------------ | --------------------------------------------------------------------------------- |
