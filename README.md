@@ -60,10 +60,10 @@ Replaced all failing[^1] color variables with shades of the same color that retu
 
 ## Acknowledgments
 
-The theme's default icons come from [Remix Icon](https://remixicon.com/).
+The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/), and [Remix Icon](https://remixicon.com/license/).
 
 ## License
 
-Source code in this repository is available under the [MIT](LICENSE) license.
+Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
 
 [^1]: Color Contrast Checker: passing scores ≥ 7.00.
