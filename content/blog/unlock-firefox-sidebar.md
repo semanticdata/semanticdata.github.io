@@ -8,6 +8,8 @@ taxonomies:
     - tutorial
 ---
 
+See the [Canonical Publication](https://miguelpimentel.do/en/writing/firefox-sidebar/) for this Blog post.
+
 This post will guide you through unlocking the sidebar width in Firefox. It will let you resize it beyond what is possible by default. We will be setting both the maximum, and the minimum width. You will have a chance to customize these values once at the right step.
 
 <!-- more -->

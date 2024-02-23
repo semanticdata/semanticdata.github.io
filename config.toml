@@ -1,4 +1,4 @@
-base_url = "https://miguelpimentel.do/"                                                                                # Domain name of your website
+base_url = "https:/semanticdata.github.io/"
 title = "semanticdata"
 description = "Miguel Pimentel. Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast."
 default_language = "en"

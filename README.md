@@ -1,14 +1,12 @@
-<h1 align=center>📓 MiguelPimentel.do</h1>
+# semanticdata.github.io
 
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/semanticdata.github.io" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/semanticdata.github.io" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/semanticdata.github.io" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/semanticdata.github.io" />
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
-
-## Overview
 
 Personal website powered by [Zola](https://www.getzola.org/), and themed with [serene](https://github.com/isunjn/serene).
 
@@ -28,9 +26,9 @@ Personal website powered by [Zola](https://www.getzola.org/), and themed with [s
 
 </details>
 
-## Screenshot
+<!-- ## Screenshot
 
-![website screenshot](screenshot-1.png)
+![website screenshot](screenshot-1.png) -->
 
 ## Changes from Upstream
 
@@ -64,6 +62,6 @@ The icons used throughout the site are kindly provided by [UXWing](https://uxwin
 
 ## License
 
-Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE).
 
 [^1]: Color Contrast Checker: passing scores ≥ 7.00.

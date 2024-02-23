@@ -11,39 +11,58 @@ copy = false
 comment = false
 # toc = false
 +++
-<br>
-{% important() %}
-This page is currently under construction. It contains <u><b><i>only</i></b></u> placeholder text.
-{% end %}
 
-## 2023-11
+See the [Canonical Publication](https://miguelpimentel.do/en/journal/) for this Blog post.
 
-### Notes
+## 2024
 
-- I was sick earlier this week. Missed two days at work. Bounced back by Thursday.
+### February
 
-### GitHub
+- Discovered NASA's [Astronomy Picture of the Day](https://apod.nasa.gov/apod/).
+- Submitted [PR #822](https://github.com/jackyzha0/quartz/pull/822) – Adds Spanish translations for [Quartz](https://github.com/jackyzha0/quartz).
+- Updated my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) project. Now includes more information about the CSS snippets, community plugins, and general workflows included in it.
+- Republished my personal website using [11ty](https://www.11ty.dev/) and [elva](https://github.com/scottsweb/elva).
+- Forked these [Obsidian](https://obsidian.md) [Minimal theme](https://github.com/kepano/obsidian-minimal) [CSS Snippets](https://github.com/replete/obsidian-minimal-theme-css-snippets).
+- Added new CSS Snippets to my vault. I'll probably end up posting them later.
 
-- Created [Zola Book](https://github.com/semanticdata/zola-book), a fork of [book](https://github.com/getzola/book). Added contents in the form of Zola and Tera Documentation. When I first discovered the book theme, I was put off by the mobile version overlapping the menu on top of the page by default. Today I managed to put together some code that addresses these problems. You can find more info on [PR #25](https://github.com/getzola/book/pull/25) at the upstream repo.
-- Created new GitHub [Projects Roadmap](https://github.com/users/semanticdata/projects/5). This is part of my effort to learn more about GitHub Projects, Pull Requests, and Issues.
-- Updated Obsidian [Starter Vault](https://github.com/semanticdata/obsidian-starter-vault). Updated community extensions and added new CSS snippets.
-- Updated Zola workflows within my [dotfiles](https://github.com/semanticdata/dotfiles) repo.
-- Fully migrated the [blog](https://miguelpimentel.do) to [semanticdata.github.io](https://github.com/semanticdata/semanticdata.github.io). Now uses Mabuya as upstream to update the underlying template core.
-- Slowly improving [Agouta](https://github.com/semanticdata/agouta) layout. Used [Zola Dinkleberg](https://github.com/semanticdata/zola-dinkleberg) as inspiration for the layout.
-- Improved legibility of [Mabuya](https://github.com/semanticdata/mabuya). Achieved perfect scores in Lighthouse. (100/100 in all categories)
-- Created [Zola Particles](https://github.com/semanticdata/zola-particles). Initially it looked promising for layout ideas I had. Right now is evident it does not meet my usage requirements. I tentatively plan to take it a different direction I was originally. This considering I won't be using it myself anymore.
-- Paused development for [Zola Docs](https://github.com/semanticdata/zola-docs). I was able to achieve some of the functionality I wanted to replicate.
+### January
 
-> [Link Of The Day](https://en.wikipedia.org/wiki/Sahara_pump_theory)
+- Archived many of my inactive GitHub repositories.
+- Compiled my GitHub stars in [this repo](https://github.com/semanticdata/github-stars) with the help of [maguowei/starred](https://github.com/maguowei/starred).
+- Submitted Spanish translations for [gethyas/doks-core](https://github.com/gethyas/doks-core).
+- Started playing around with [11ty](https://www.11ty.dev/).
+  - Cloned [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent).
+  - Cloned [Eleventy Garden](https://github.com/binyamin/eleventy-garden).
+- Learned about [Astro](https://astro.build/). I'm playing around with it.
+  - Cloned [Astro Cube](https://github.com/semanticdata/astro-cube) and [Astro Essentialist](https://github.com/0xShapeShifter/essentialist).
+- Discovered [CUBE CSS](https://cube.fyi/), [Utopia](https://utopia.fyi/), and [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
+  - CUBE stands for **Composition Utility Block Exception**.
+- Fixed the search module not working in [Forgetful Notes](https://github.com/semanticdata/forgetful-notes).
+- Revived [Firefox TabSpace](https://github.com/semanticdata/firefox-tabspace). Cleaned the repo and published updated version.
 
-## 2023-10
+## 2023
 
-### GitHub
+### December
 
-- Created new repo [upload-pages-artifact](https://github.com/semanticdata/upload-pages-artifact). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
-- Created new repo [upload-artifact](https://github.com/semanticdata/upload-artifact). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
-- Created new repo [deploy-pages](https://github.com/semanticdata/deploy-pages). Forked to bump `node16` to `node20`, as the former was deprecated by GitHub.
-- With the three new GitHub actions, I can craft new workflows that use my own actions instead of the ones that have not been updated.
-- Renamed [zola-minima] to Agouta. Inspired by the Hispaniolan solenodon.
+- Created new Firefox extension: [ChatGPT in the Sidebar](https://github.com/semanticdata/firefox-chatgpt-in-sidebar).
+- Published new Firefox extension: [New Tab Notes](https://github.com/semanticdata/firefox-new-tab-notes).
+- I visited the [Dominican Republic](https://en.wikipedia.org/wiki/Dominican_Republic) after more than 8 years without visiting family.
+- Submitted [Mabuya](https://github.com/semanticdata/mabuya) to the Zola themes site.
+- Submitted [Zola Minimal](https://github.com/semanticdata/zola-minimal) to the Zola themes site.
+- Discovered [Bulma](https://bulma.io/), a CSS framework.
+- Republished my [website](https://github.com/semanticdata/semanticdata.github.io) with the [serene](https://github.com/isunjn/serene).
+- Renamed Zola Dinkleberg to [Zola Guava](https://github.com/semanticdata/zola-guava).
 
-> [Link Of The Day](https://en.wikipedia.org/wiki/False_friend)
+### November
+
+- Ported the Chrome extension [Text Revealer](https://github.com/jamigibbs/text-revealer-chrome-extension) to Firefox.
+- Updated my [Obsidian Starter](https://github.com/semanticdata/obsidian-starter-vault) vault.
+- I'm playing around with [Svelte](https://svelte.dev/), and [Milkdown](https://milkdown.dev/).
+  - Created [svelte-milkdown](https://github.com/semanticdata/svelte-milkdown).
+- Republished my 2010 blog in Spanish: [Prose Poetry](https://github.com/semanticdata/prose-poetry).
+- Fixed bug outlined in [Issue #18](https://github.com/getzola/book/issues/18) in [Zola Book](https://github.com/getzola/book).
+- Added dark theme and toggle to the [Anpu Zola](https://github.com/zbrox/anpu-zola-theme) theme.
+
+## Timeless Notes
+
+This page takes inspiration from the [Journal of an Enigmatic Mind](https://speyllsite.pages.dev/journal/). It explores the concept of keeping a public journal, something I haven't done before.

@@ -8,6 +8,8 @@ taxonomies:
     - blogging
 ---
 
+See the [Canonical Publication](https://miguelpimentel.do/en/writing/monkey-brain/) for this Blog post.
+
 The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps _me_ keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well.
 
 <!-- more -->

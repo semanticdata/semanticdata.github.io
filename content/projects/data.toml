@@ -44,15 +44,6 @@ links = [
 ]
 
 [[project]]
-name = "📓 MiguelPimentel.do"
-desc = "This website! Read more about it [here](/meta)."
-tags = ["zola", "zola-website"]
-links = [
-  { name = "website", url = "https://miguelpimentel.do/" },
-  { name = "github", url = "https://github.com/semanticdata.github.io/" },
-]
-
-[[project]]
 name = "🔮 Obsidian Starter Vault"
 desc = "Opinionated compilation of extensions and settings to help you learn and start exploring Obsidian."
 tags = ["obsidian", "opinionated"]

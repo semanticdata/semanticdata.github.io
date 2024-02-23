@@ -19,7 +19,9 @@ display_tags = true
 truncate_summary = false
 +++
 
-> This page was originally published on July 28, 2023. Its main goal was to aid in selecting SSD, and NVMe drives during a Micro Center sale.
+See the [Canonical Publication](https://miguelpimentel.do/en/writing/ssd-nvme/) for this Blog post.
+
+This page was originally published on July 28, 2023. Its main goal was to aid in selecting SSD, and NVMe drives during a Micro Center sale.
 <!-- more -->
 ## Storage Technologies
 

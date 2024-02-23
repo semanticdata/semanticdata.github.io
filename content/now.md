@@ -12,6 +12,8 @@ comment = false
 toc = false
 +++
 
+See the [Canonical Publication](https://miguelpimentel.do/en/now) for this Blog post.
+
 # /now
 
 A page about about what I'm focused on at this point in my life. Also known as a [/now](https://nownownow.com/about) page.
