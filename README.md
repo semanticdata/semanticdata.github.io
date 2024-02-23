@@ -8,21 +8,20 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
 
-Personal website powered by [Zola](https://www.getzola.org/), and themed with [serene](https://github.com/isunjn/serene).
+Previous personal website powered by [Zola](https://www.getzola.org/), and themed with [serene](https://github.com/isunjn/serene).
 
 ## Table of Contents
 
 <details>
 <summary>Show/Hide</summary>
 
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents)
-- [Screenshot](#screenshot)
-- [Changes from Upstream](#changes-from-upstream)
-  - [Accessibility](#accessibility)
-- [Useful Commands](#useful-commands)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+- [semanticdata.github.io](#semanticdatagithubio)
+  - [Table of Contents](#table-of-contents)
+  - [Changes from Upstream](#changes-from-upstream)
+    - [Accessibility](#accessibility)
+  - [Useful Commands](#useful-commands)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 
 </details>
 
