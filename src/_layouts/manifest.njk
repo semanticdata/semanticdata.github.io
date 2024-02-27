@@ -1,0 +1,33 @@
+{
+  "lang": "{{ locales[page.lang].locale or page.lang }}",
+  "dir": "{{ locales[page.lang].dir or 'ltr' }}",
+  "short_name": "{{ 'meta.title' | translate }}",
+  "name": "{{ 'meta.title' | translate }}",
+  "description": "{{ 'meta.description' | translate }}",
+  "categories": {{ settings.manifest.categories | dump | safe }},
+  "orientation": "{{ settings.manifest.orientation }}",
+  "scope": "{{ '/' | htmlBaseUrl(settings.url) }}",
+  "id": "/?v= {% version %}",
+  "start_url": "{{ '/' | htmlBaseUrl(settings.url) }}",
+  "theme_color": "{{ settings.manifest.themeColor }}",
+  "background_color": "{{ settings.manifest.backgroundColor }}",
+  "display": "{{ settings.manifest.display }}",
+  "icons": [
+    {
+      {# "src": "{{ '/assets/img/android-chrome-192x192.png' | htmlBaseUrl(settings.url) }}", #}
+      "src": "./assets/img/android-chrome-192x192.png",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }, {
+      "src": "{{ '/assets/img/android-chrome-192x192.png' | htmlBaseUrl(settings.url) }}",
+      "type": "image/png",
+      "sizes": "192x192"
+    }, {
+      "src": "{{ '/assets/img/android-chrome-512x512.png' | htmlBaseUrl(settings.url) }}",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

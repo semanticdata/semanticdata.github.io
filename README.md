@@ -1,66 +1,175 @@
-# semanticdata.github.io
+# 🦝 MiguelPimentel.do
 
 <p align="">
-  <img src="https://img.shields.io/github/languages/code-size/semanticdata/semanticdata.github.io" />
-  <img src="https://img.shields.io/github/repo-size/semanticdata/semanticdata.github.io" />
-  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/semanticdata.github.io" />
-  <img src="https://img.shields.io/github/last-commit/semanticdata/semanticdata.github.io" />
+  <img src="https://img.shields.io/github/languages/code-size/semanticdata/elva" />
+  <img src="https://img.shields.io/github/repo-size/semanticdata/elva" />
+  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/elva" />
+  <img src="https://img.shields.io/github/last-commit/semanticdata/elva" />
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
 
-Previous personal website powered by [Zola](https://www.getzola.org/), and themed with [serene](https://github.com/isunjn/serene).
-
-## Table of Contents
-
-<details>
-<summary>Show/Hide</summary>
-
-- [semanticdata.github.io](#semanticdatagithubio)
-  - [Table of Contents](#table-of-contents)
-  - [Changes from Upstream](#changes-from-upstream)
-    - [Accessibility](#accessibility)
-  - [Useful Commands](#useful-commands)
-  - [Acknowledgments](#acknowledgments)
-  - [License](#license)
-
-</details>
-
-<!-- ## Screenshot
-
-![website screenshot](screenshot-1.png) -->
+My personal website built with [11ty](https://www.11ty.dev/).
 
 ## Changes from Upstream
 
-- New *layout*: `Page`.
-- New header *partial* `_header-journal.html`.
-- New `/now`, `/uses`, and `/meta` sections and pages.
-
-### Accessibility
-
-Replaced all failing[^1] color variables with shades of the same color that returned passing scores.
-
-| Variable                  | Old Color | New Color | Old Score | New Score |
-| ------------------------- | --------- | --------- | --------- | --------- |
-| `primary-color`           | `#698BCF` | `#3F537C` | `3.39`    | `7.67`    |
-| `primary-color-dark`      | `#698BCF` | `#96ADDD` | `4.75`    | `7.14`    |
-| `text-pale-color`         | `#9AA2B9` | `#4C515C` | `2.55`    | `7.96`    |
-| `text-pale-color-dark`    | `#5d6470` | `#ADB1B7` | `2.70`    | `7.47`    |
-| `callout-note-color`      | `#698BCF` | `#3F537C` | `3.39`    | `7.67`    |
-| `callout-note-color-dark` | `#698BCF` | `#96ADDD` | `4.75`    | `7.14`    |
+- Switched from using `npm` to `pnpm`.
+- Added Prettier alongside its config/ignore files.
+- Added new script `run check` to check the code with Prettier.
+- Added script `run format` to format the code with Prettier.
+- Hid the _unused_ language toggle.
+- Added new `Journal`, `Uses`, and `Projects` pages.
+- Added [Pacifico](https://fonts.google.com/specimen/Pacifico) as font family for page titles.
+- Added [Bitter](https://fonts.google.com/specimen/Bitter) as font family for other text.
+- Implemented new `Notes` section.
+- Implemented **Wikilinks** support via `.eleventy.js`.
+- Implemented **Backlinks** support via `notes.11tydata.js`.
+- Added new [Markdown-It](https://github.com/markdown-it/markdown-it) plugins:
+  - [Attributes](https://www.npmjs.com/package/@gerhobbelt/markdown-it-attrs)
+  - [Mark](https://www.npmjs.com/package/markdown-it-mark)
+  - [Table of Contents](https://www.npmjs.com/package/markdown-it-table-of-contents)
 
 ## Useful Commands
 
-| **Command**  | Description                                                                       |
-| ------------ | --------------------------------------------------------------------------------- |
-| `zola build` | Only builds the site into the `/public` folder, which is ignored in `.gitignore`. |
-| `zola serve` | Builds and serves the site locally, watches for changes, refreshes automatically. |
+### Install dependencies
 
-## Acknowledgments
+```bash
+pnpm install
+```
 
-The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/), and [Remix Icon](https://remixicon.com/license/).
+### Update dependencies
 
-## License
+```bash
+pnpm update
+```
 
-Source code in this repository is available under the [MIT License](LICENSE).
+### Start local server
 
-[^1]: Color Contrast Checker: passing scores ≥ 7.00.
+```bash
+pnpm start
+```
+
+### Check formatting with [Prettier](https://prettier.io/)
+
+```bash
+pnpm run check
+```
+
+### Format repo with [Prettier](https://prettier.io/)
+
+```bash
+pnpm run format
+```
+
+## Different Useful Commands Section for Testing Purposes
+
+```bash
+# Install dependencies
+pnpm install
+```
+
+```bash
+# Update dependencies
+pnpm update
+```
+
+```bash
+# Start local server
+pnpm start
+```
+
+```bash
+# Check formatting with Prettier
+pnpm run check
+```
+
+```bash
+# Format repo with Prettier
+pnpm run format
+```
+
+## Another One
+
+```bash
+# Install dependencies
+pnpm install
+
+# Update dependencies
+pnpm update
+
+# Start local server
+pnpm start
+
+# Check formatting with Prettier
+pnpm run check
+
+# Format repo with Prettier
+pnpm run format
+```
+
+## Frontmatter
+
+Check them out here: <https://frontmatter.codes>
+
+### Example
+
+```markdown
+---
+layout: page
+title: Main page title, heading level one
+date: 2023-08-04
+modified: 2023-08-04
+thumbnail: /assets/img/test.jpg
+thumbnailDescription: An alt text description for the thumbnail image
+tags: 'page-demo'
+draft: true
+eleventyExcludeFromCollections: true
+seo:
+  title: Custom title (defaults to title)
+  description: SEO description
+  slug: mmm-slugs
+  changeFrequency: daily
+  sitemapPriority: '1.0'
+  excludeFromSitemap: true
+  noIndex: true
+---
+```
+
+### Descriptions
+
+- `layout` — [Page layout](https://www.11ty.dev/docs/layouts/) for the page. Default is `post` for posts and `page` for pages.
+- `title` — The title of the current page.
+- `date` — [Published date](https://www.11ty.dev/docs/dates/). You can set special values here like `Last Modified`.
+- `modified` — Modified date.
+- `thumbnail` — Relative path to thumbnail / opengraph image. Size `1200px x 630px`.
+- `thumbnailDescription` — Alt text for thumbnail.
+- `tags` – [Tags](https://www.11ty.dev/docs/collections/#add-to-a-collection-using-tags) are currently used for custom body classes.
+- `draft` — Draft pages will appear locally and on staging but not in production.
+- `eleventyExcludeFromCollections` — [Hide from 11ty collections](https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections).
+- `seo.title` — Set custom page title for search engines and opengraph.
+- `seo.description` — Set the page description for search engines and opengraph.
+- `seo.slug` — Set a new slug for the page that is different from the filename.
+- `seo.changeFrequency` — [How often does this page change](https://www.sitemaps.org/protocol.html#changefreqdef)?
+- `seo.sitemapPriority` — [The priority of this URL relative to other URLs on your site](https://www.sitemaps.org/protocol.html#prioritydef).
+- `seo.excludeFromSitemap` — Hide this page from your sitemap.xml.
+- `seo.noIndex` — Discourage search engine indexing.
+
+Nearly all front matter is optional, except for titles (and dates for posts).
+
+## Image Embedding
+
+```njk
+{% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
+```
+
+## Personalization Checklist
+
+- [ ] Setup a custom template for your open graph images (`.frontmatter/scripts/opengraph-template.html`)
+- [ ] You many not need [Alpine.js](https://alpinejs.dev/) which can be removed from `/src/assets/js/bundle.njk`
+- [ ] If you enable Photon CDN support [familiarize yourself with these limitations](https://jetpack.com/support/site-accelerator/#limitations)
+- [ ] Set your preferred image sizes and formats in the image shortcode `/src/_config/shortcodes/image.js`
+- [ ] If you add more front matter, you may wish to edit `frontmatter.json` to add [Front Matter CMS](https://frontmatter.codes/) support
+- [ ] Use [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) to grab some API data
+
+## Acknowledgements and Attributions
+
+This project is based on [elva](https://github.com/scottsweb/elva) and [eleventy-garden](https://github.com/binyamin/eleventy-garden).

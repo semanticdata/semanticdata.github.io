@@ -1,0 +1,74 @@
+/**
+ * Grid component
+ * 1) This is the parent container that provides default 
+ *    gap value and behavior. Items placed in an unmodified
+ *    grid component will stack with a gap between them
+ * 2) For demo layout only. We don't typically include any 
+ *    default margins or padding in our grid component
+ */
+.l-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem; /* 2 */
+}
+
+/**
+ * Side-by-side grid
+ * 1) Always display the grid items side by side
+ */
+.l-grid--side-by-side {
+  grid-template-columns: 1fr 1fr;
+}
+
+/**
+ * 2up grid
+ * 1) Stack items until there's enough room to     
+ *    display them side by side.
+ */
+.l-grid--2up {
+  @media all and (min-width: 40rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/**
+ * 3up grid
+ * 1) Stack items until there's enough room to     
+ *    display them side by side, then display as
+ *    three across when enough space is available
+ */
+.l-grid--3up {
+  @media all and (min-width: 40rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media all and (min-width: 50rem) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/**
+ * 1-to-3up grid
+ * 1) Stack items until there's enough room to     
+ *    display as three across. This is often good
+ *.   for promo touts 
+ */
+.l-grid--1-to-3up {
+  @media all and (min-width: 50rem) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/**
+ * Card 
+ */
+.c-card {
+  font-family: system-ui;
+  background: salmon;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.c-card--blue {
+  background: lightblue;
+}
