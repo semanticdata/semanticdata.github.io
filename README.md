@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
 
-My personal website built with [11ty](https://www.11ty.dev/).
+My personal website built with [11ty](https://www.11ty.dev/) and elva.
 
 ## Changes from Upstream
 
@@ -108,7 +108,7 @@ pnpm run format
 
 ## Frontmatter
 
-Check them out here: <https://frontmatter.codes>
+Check them out here: [https://frontmatter.codes](https://frontmatter.codes)
 
 ### Example
 
