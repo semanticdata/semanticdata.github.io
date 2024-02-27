@@ -1,4 +1,4 @@
-# 🦝 MiguelPimentel.do
+# semanticdata.github.io
 
 <p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/elva" />
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
 
-My personal website built with [11ty](https://www.11ty.dev/) and elva.
+My personal website built with [11ty](https://www.11ty.dev/) and [elva](https://github.com/scottsweb/elva).
 
 ## Changes from Upstream
 
@@ -29,65 +29,6 @@ My personal website built with [11ty](https://www.11ty.dev/) and elva.
   - [Table of Contents](https://www.npmjs.com/package/markdown-it-table-of-contents)
 
 ## Useful Commands
-
-### Install dependencies
-
-```bash
-pnpm install
-```
-
-### Update dependencies
-
-```bash
-pnpm update
-```
-
-### Start local server
-
-```bash
-pnpm start
-```
-
-### Check formatting with [Prettier](https://prettier.io/)
-
-```bash
-pnpm run check
-```
-
-### Format repo with [Prettier](https://prettier.io/)
-
-```bash
-pnpm run format
-```
-
-## Different Useful Commands Section for Testing Purposes
-
-```bash
-# Install dependencies
-pnpm install
-```
-
-```bash
-# Update dependencies
-pnpm update
-```
-
-```bash
-# Start local server
-pnpm start
-```
-
-```bash
-# Check formatting with Prettier
-pnpm run check
-```
-
-```bash
-# Format repo with Prettier
-pnpm run format
-```
-
-## Another One
 
 ```bash
 # Install dependencies
