@@ -65,6 +65,6 @@
     "markdown-it-sub": "^2.0.0",
     "markdown-it-sup": "^2.0.0",
     "markdown-it-table-of-contents": "^0.6.0",
-    "title-case": "^3.0.3"
+    "title-case": "^4.3.1"
   }
 }
