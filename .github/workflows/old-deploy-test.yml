@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm i
       - name: Build
-        run: export NODE_ENV=production && npx @11ty/eleventy --output=_site
+        run: export NODE_ENV=production && npx @11ty/eleventy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
