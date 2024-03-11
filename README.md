@@ -1,116 +1,81 @@
-# semanticdata.github.io
+# 📚 MiguelPimentel.do 🦝
 
-<p align="">
-  <img src="https://img.shields.io/github/languages/code-size/semanticdata/elva" />
-  <img src="https://img.shields.io/github/repo-size/semanticdata/elva" />
-  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/elva" />
-  <img src="https://img.shields.io/github/last-commit/semanticdata/elva" />
-  <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
-</p>
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
+![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
+![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do)
+![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
+![is website up?](https://img.shields.io/website/https/miguelpimentel.do.svg)
 
-My personal website built with [11ty](https://www.11ty.dev/) and [elva](https://github.com/scottsweb/elva).
+My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/) and a few other things under the hood.
 
-## Changes from Upstream
+## ✨ Features
 
-- Switched from using `npm` to `pnpm`.
-- Added Prettier alongside its config/ignore files.
-- Added new script `run check` to check the code with Prettier.
-- Added script `run format` to format the code with Prettier.
-- Hid the _unused_ language toggle.
-- Added new `Journal`, `Uses`, and `Projects` pages.
-- Added [Pacifico](https://fonts.google.com/specimen/Pacifico) as font family for page titles.
-- Added [Bitter](https://fonts.google.com/specimen/Bitter) as font family for other text.
-- Implemented new `Notes` section.
-- Implemented **Wikilinks** support via `.eleventy.js`.
-- Implemented **Backlinks** support via `notes.11tydata.js`.
-- Added new [Markdown-It](https://github.com/markdown-it/markdown-it) plugins:
-  - [Attributes](https://www.npmjs.com/package/@gerhobbelt/markdown-it-attrs)
-  - [Mark](https://www.npmjs.com/package/markdown-it-mark)
-  - [Table of Contents](https://www.npmjs.com/package/markdown-it-table-of-contents)
+-   Vite as Middleware in Eleventy Dev Server (uses [eleventy-plugin-vite](https://github.com/11ty/eleventy-plugin-vite/))
+-   Eleventy build output is post-processed by [Vite](https://vitejs.dev) (with Rollup)
+-   CSS/Sass post-processing with PostCSS incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and cssnano
+-   Uses [my own opinionated CSS/Sass structure](https://matthiasott.com/notes/how-i-structure-my-css)
+-   Critical CSS, generated and inlined via [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical). The main CSS file is then loaded asynchronously with [Scott Jehl’s `media` loading strategy](https://www.filamentgroup.com/lab/load-css-simpler/) (adds `media="print"` and swaps to `media="all"` once loaded)
+-   Example implementation of a web font loading strategy ([critical FOFT with preload](https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload))
+-   Basic fluid typography based on [Utopia](https://utopia.fyi)
+-   Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
+-   Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
 
-## Useful Commands
+## 🛠 Enhancements and Additions
 
-```bash
+-   Blog section (w/ new blog and post layouts)
+    -   RSS Feed (w/ style via XSL)
+-   Notes section (w/ new notes layout)
+    -   Wikilinks ([Obsidian](https://obsidian.md/) compatible)
+    -   Backlinks
+    -   Hover previews (backlinks)
+-   New Journal, About, Uses, and Now pages.
+-   Partial CSS/SCSS refactor.
+-   [Prettier](https://prettier.io/) and new scripts to format entire codebase.
+
+## ⛑ Useful Commands
+
+```sh
 # Install dependencies
 pnpm install
 
 # Update dependencies
 pnpm update
 
-# Start local server
+# Start local dev server
 pnpm start
 
-# Check formatting with Prettier
+# Check formatting w/ Prettier
 pnpm run check
 
-# Format repo with Prettier
+# Fix formatting w/ Prettier
 pnpm run format
 ```
 
-## Frontmatter
+## 🎨 Customization
 
-Check them out here: [https://frontmatter.codes](https://frontmatter.codes)
+### Stylesheets
 
-### Example
+Add your custom CSS code within `/src/assets/css/_custom.scss`.
 
-```markdown
----
-layout: page
-title: Main page title, heading level one
-date: 2023-08-04
-modified: 2023-08-04
-thumbnail: /assets/img/test.jpg
-thumbnailDescription: An alt text description for the thumbnail image
-tags: 'page-demo'
-draft: true
-eleventyExcludeFromCollections: true
-seo:
-  title: Custom title (defaults to title)
-  description: SEO description
-  slug: mmm-slugs
-  changeFrequency: daily
-  sitemapPriority: '1.0'
-  excludeFromSitemap: true
-  noIndex: true
----
-```
+## 🧬 Quirks
 
-### Descriptions
+Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
 
-- `layout` — [Page layout](https://www.11ty.dev/docs/layouts/) for the page. Default is `post` for posts and `page` for pages.
-- `title` — The title of the current page.
-- `date` — [Published date](https://www.11ty.dev/docs/dates/). You can set special values here like `Last Modified`.
-- `modified` — Modified date.
-- `thumbnail` — Relative path to thumbnail / opengraph image. Size `1200px x 630px`.
-- `thumbnailDescription` — Alt text for thumbnail.
-- `tags` – [Tags](https://www.11ty.dev/docs/collections/#add-to-a-collection-using-tags) are currently used for custom body classes.
-- `draft` — Draft pages will appear locally and on staging but not in production.
-- `eleventyExcludeFromCollections` — [Hide from 11ty collections](https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections).
-- `seo.title` — Set custom page title for search engines and opengraph.
-- `seo.description` — Set the page description for search engines and opengraph.
-- `seo.slug` — Set a new slug for the page that is different from the filename.
-- `seo.changeFrequency` — [How often does this page change](https://www.sitemaps.org/protocol.html#changefreqdef)?
-- `seo.sitemapPriority` — [The priority of this URL relative to other URLs on your site](https://www.sitemaps.org/protocol.html#prioritydef).
-- `seo.excludeFromSitemap` — Hide this page from your sitemap.xml.
-- `seo.noIndex` — Discourage search engine indexing.
+## ❤ Acknowledgements and Inspirations
 
-Nearly all front matter is optional, except for titles (and dates for posts).
+This project is made possible by these amazing people and projects:
 
-## Image Embedding
+-   Andy Bell – [any-bell.co.uk](https://andy-bell.co.uk/)
+-   Binyamin Aron Green – [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
+-   Lene Saile – [lenesaile.com](https://www.lenesaile.com/en/)
+-   Jacky Zhao – [Quartz](https://github.com/jackyzha0/quartz)
+-   Matthias Ott – [matthiasott.com](https://matthiasott.com) – [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite)
+-   Max Böck — [Eleventastic](https://github.com/maxboeck/eleventastic)
+-   Miriam Suzanne – [miriamsuzanne.com](https://www.miriamsuzanne.com)
+-   Scott Evans – [elva](https://github.com/scottsweb/elva)
+-   Stephanie Eckles – [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
+-   Zach Leatherman – [zachleat.com](https://github.com/zachleat/zachleat.com)
 
-```njk
-{% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
-```
+## © License
 
-## Personalization Checklist
-
-- [ ] Setup a custom template for your open graph images (`.frontmatter/scripts/opengraph-template.html`)
-- [ ] You many not need [Alpine.js](https://alpinejs.dev/) which can be removed from `/src/assets/js/bundle.njk`
-- [ ] If you enable Photon CDN support [familiarize yourself with these limitations](https://jetpack.com/support/site-accelerator/#limitations)
-- [ ] Set your preferred image sizes and formats in the image shortcode `/src/_config/shortcodes/image.js`
-- [ ] If you add more front matter, you may wish to edit `frontmatter.json` to add [Front Matter CMS](https://frontmatter.codes/) support
-- [ ] Use [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) to grab some API data
-
-## Acknowledgements and Attributions
-
-This project is based on [elva](https://github.com/scottsweb/elva) and [eleventy-garden](https://github.com/binyamin/eleventy-garden).
+© 2024 Miguel Pimentel • [MIT License](LICENSE)

@@ -1,16 +1,31 @@
-<nav class="navigation">
-    <ul class="navigation-menu">
-        <li {% if page.url === "/" %} class="current-page" {% endif %}>
-            <a href="/" {% if page.url === url %} aria-current="page" {% endif %}>Home</a>
+<nav
+    class="nav nav--primary"
+    role="navigation"
+    tabindex="-1"
+>
+    {# Nav Links #}
+    <ul class="nav__menu">
+        {%- for item in collections.all | eleventyNavigation -%} {%- if item.url
+        -%} {%- set isCurrent = (item.url == page.url) -%} {%- set isParent =
+        item.url != '/' and item.url in page.url -%}
+        <li
+            class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}"
+        >
+            <a
+                class="nav__link"
+                href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
+                {%
+                if
+                isCurrent
+                %}
+                aria-current="page"
+                {%
+                endif
+                %}
+            >
+                {{ item.title }}
+            </a>
         </li>
-        {% for item in navigation[page.lang] %}
-            {%- set url = item.url | locale_url %}
-            <li {% if page.url === url %} class="current-page" {% endif %}>
-                <a href="{{ url }}" {% if page.url === url %} aria-current="page" {% endif %}>
-                    {{ item.text }}
-                </a>
-            </li>
-        {%- endfor %}
+        {%- endif -%} {%- endfor -%}
     </ul>
-    {# {% include "switch-il8n.njk" %} #}
 </nav>
