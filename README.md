@@ -1,4 +1,4 @@
-# 📚 MiguelPimentel.do 🦝
+# semanticdata.github.io
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
 ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
