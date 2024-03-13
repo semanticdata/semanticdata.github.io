@@ -1,12 +1,12 @@
-# 📚 MiguelPimentel.do 🦝
+# 📓 SemanticData.GitHub.io
 
-![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
-![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
-![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do)
-![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
-![is website up?](https://img.shields.io/website/https/miguelpimentel.do.svg)
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/semanticdata.github.io)
+![repository size](https://img.shields.io/github/repo-size/semanticdata/semanticdata.github.io)
+![commits](https://img.shields.io/github/commit-activity/t/semanticdata/semanticdata.github.io)
+![last commit](https://img.shields.io/github/last-commit/semanticdata/semanticdata.github.io)
+![is website up?](https://img.shields.io/website/https/semanticdata.github.io.svg)
 
-My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/) and a few other things under the hood.
+Previous personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/) and a few other things under the hood.
 
 ## ✨ Features
 
@@ -32,7 +32,7 @@ My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vit
 -   Partial CSS/SCSS refactor.
 -   [Prettier](https://prettier.io/) and new scripts to format entire codebase.
 
-## ⛑ Useful Commands
+## 👓 Useful Commands
 
 ```sh
 # Install dependencies
