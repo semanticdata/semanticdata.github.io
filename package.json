@@ -52,6 +52,6 @@
         "rollup-plugin-critical": "^1.0.13",
         "sass": "^1.71.1",
         "title-case": "^3.0.3",
-        "vite": "^4.5.2"
+        "vite": "^4.5.3"
     }
 }
