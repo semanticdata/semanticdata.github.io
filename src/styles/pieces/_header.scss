@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  border-bottom: solid var(--color-orange) 0.1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-item:hover {
+  background-color: var(--color-orange);
+}

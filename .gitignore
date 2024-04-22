@@ -1,9 +1,15 @@
-_site/
-.DS_Store
-.env
-.netlify
-*.log
-logs/
+# build output
+dist/
+_site
+# generated types
+.astro/
+# dependencies
 node_modules/
+# logs
 npm-debug.log*
-package-lock.json
+pnpm-debug.log*
+# environment variables
+.env
+.env.production
+# macOS-specific files
+.DS_Store

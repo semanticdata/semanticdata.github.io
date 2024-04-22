@@ -1,0 +1,23 @@
+footer {
+  border-top: solid var(--color-orange) 0.1rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer nav a {
+  font-size: var(--step-0);
+  text-decoration: none;
+  &:hover {
+    color: var(--color-orange);
+    text-decoration: underline;
+  }
+}
+
+footer nav {
+  font-size: var(--step-5);
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}

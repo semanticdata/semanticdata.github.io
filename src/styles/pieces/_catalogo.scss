@@ -1,0 +1,34 @@
+// .catalogo {}
+// .underlined {}
+// .catalogo-line {}
+
+h2.catalogo-title {
+  font-size: var(--step-2);
+  margin-top: 0.5rem;
+}
+
+.catalogo-item {
+  text-decoration: none;
+}
+
+.catalogo-description {
+  font-size: var(--step-0);
+}
+
+.catalogo-date {
+  font-size: var(--step-0);
+}
+
+.catalogo-container {
+  // border: 0.15rem solid palevioletred;
+  border: 0.15rem solid var(--color-orange);
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.3rem;
+  // width: 40ch;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
