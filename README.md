@@ -1,4 +1,4 @@
-# 🗄 SemanticData.GitHub.io
+# 🗃 semanticdata.github.io
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/semanticdata.github.io)
 ![repository size](https://img.shields.io/github/repo-size/semanticdata/semanticdata.github.io)
@@ -8,14 +8,14 @@
 
 Previous personal websites stored in separate git branches.
 
-## 🎨 Different Designs
+## ⏪ Past Versions
 
 - [Astro-naut](https://github.com/semanticdata/semanticdata.github.io/tree/astro-naut)
 - [Eleventy Vite](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-vite)
-- [Eleventy Elva](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-elva)
-- [Zola Serene](https://github.com/semanticdata/semanticdata.github.io/tree/zola-serene)
+- [Eleventy](https://www.11ty.dev/) [Elva](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-elva)
+- [Zola](https://www.getzola.org/) [Serene](https://github.com/semanticdata/semanticdata.github.io/tree/zola-serene)
 
-## ❤ Acknowledgements and Inspirations
+## 💜 Acknowledgements and Inspirations
 
 These projects are made possible by these amazing people and their projects:
 
