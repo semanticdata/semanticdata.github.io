@@ -30,6 +30,21 @@ These projects are made possible by these amazing people and their projects:
 - Stephanie Eckles – [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
 - Zach Leatherman – [zachleat.com](https://github.com/zachleat/zachleat.com)
 
+## 🛠️ Technology
+
+The previous sites use various technologies cobbled together. Here's some of them:
+
+- [11ty](https://www.11ty.dev/): a simpler static site generator.
+- [Alpine.js](https://alpinejs.dev/): lightweight JavaScript framework.
+- [Astro](https://github.com/withastro/astro/): web framework for content-driven websites.
+- [FlexSearch](https://github.com/nextapps-de/flexsearch/): fast and memory-flexible full-text search library with no dependencies.
+- [Husky](https://github.com/typicode/husky/): Git hooks manager.
+- [Parcel](https://parceljs.org/): zero configuration build tool for the web.
+- [Prettier](https://github.com/prettier/prettier/): an opinionated code formatter.
+- [Sass](https://github.com/sass/sass/): because CSS can be fun.
+- [TypeScript](https://github.com/microsoft/TypeScript): superset of JavaScript.
+- [Zola](https://github.com/getzola/zola/): fast static site generator in a single binary with everything built-in.
+
 ## © License
 
 Source code in this repository is available under the [MIT License](LICENSE).
