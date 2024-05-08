@@ -12,8 +12,8 @@ Previous personal websites stored in separate git branches.
 
 - [Astro-naut](https://github.com/semanticdata/semanticdata.github.io/tree/astro-naut)
 - [Eleventy Vite](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-vite)
-- [Eleventy](https://www.11ty.dev/) [Elva](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-elva)
-- [Zola](https://www.getzola.org/) [Serene](https://github.com/semanticdata/semanticdata.github.io/tree/zola-serene)
+- [Eleventy Elva](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-elva)
+- [Zola Serene](https://github.com/semanticdata/semanticdata.github.io/tree/zola-serene)
 
 ## 💜 Acknowledgements and Inspirations
 
