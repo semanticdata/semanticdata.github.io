@@ -29,3 +29,7 @@ These projects are made possible by these amazing people and their projects:
 - Scott Evans – [elva](https://github.com/scottsweb/elva)
 - Stephanie Eckles – [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
 - Zach Leatherman – [zachleat.com](https://github.com/zachleat/zachleat.com)
+
+## © License
+
+Source code in this repository is available under the [MIT License](LICENSE).
