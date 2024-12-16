@@ -10,6 +10,7 @@ Previous personal websites stored in separate git branches.
 
 ## ⏪ Past Versions
 
+- [Astro Micro](https://github.com/semanticdata/semanticdata.github.io/tree/astro-micro)
 - [Astro-naut](https://github.com/semanticdata/semanticdata.github.io/tree/astro-naut)
 - [Eleventy Vite](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-vite)
 - [Eleventy Elva](https://github.com/semanticdata/semanticdata.github.io/tree/eleventy-elva)
